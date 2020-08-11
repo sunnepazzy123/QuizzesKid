@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quick Quiz - Play</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="game.css" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div id="loader"></div>
+      
+
+      <div id="game" class="justify-center flex-column hidden">
+        
+        <div id="hud">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix">
+              Question
+            </p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div id="hud-item">
+            <p class="hud-prefix">
+              Score
+            </p>
+            <h1 class="hud-main-text" id="score">
+              0
+            </h1>
+          </div>
+        </div>
+
+
+        <h2 id="question"></h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4"></p>
+        </div>
+
+      
+        <div class="alan-btn"></div>
+
+      </div>
+      
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="game.js"></script>
+
+
+ <script type="text/javascript"
+ src="https://studio.alan.app/web/lib/alan_lib.js"></script>
+
+
+
+
+
+ <script>
+  //  import alanBtn from "@alan-ai/alan-sdk-web";
+
+
+  const alanKey = "7129959db87bd3eae919a04996b012a62e956eca572e1d8b807a3e2338fdd0dc/stage";
+  
+// const alanKey = "678e65a153fa4d6aef45a7036f6b09fc2e956eca572e1d8b807a3e2338fdd0dc/stage";
+
+  
+    var alanBtnInstance = alanBtn({
+      key: alanKey,
+      onCommand: ({commandData}) =>{
+        if (command === "testCommand") {
+          //call client code that will react on the received command
+          alert("The code was executed")
+        }
+      },
+      rootEl: document.getElementById("alan-btn"),
+    });
+
+    alanBtnInstance.activate();
+  </script>
+  </body>
+</html>
