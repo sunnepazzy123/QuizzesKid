@@ -95,7 +95,7 @@
   
     var alanBtnInstance = alanBtn({
       key: alanKey,
-      onCommand: ({commandData}) =>{
+      onCommand: ({command}) =>{
         if (command === "testCommand") {
           //call client code that will react on the received command
           alert("The code was executed")
