@@ -19,39 +19,22 @@ let availableQuesions = [];
 //Set Questions to Empty Array
 let questions = [];
 //Retrieve a request from a Local Json file or Restful Api
-fetch('https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple')
-    .then((res) => {
-        return res.json();
-    })
-    .then((loadedQuestions) => {
-        questions = loadedQuestions.results.map((loadedQuestion) => {
-            const formattedQuestion = {
-                question: loadedQuestion.question,
-            };
+setTimeout(()=>{
 
-            const answerChoices = [...loadedQuestion.incorrect_answers];
-            formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
-            answerChoices.splice(
-                formattedQuestion.answer - 1,
-                0,
-                loadedQuestion.correct_answer
-            );
-
-            answerChoices.forEach((choice, index) => {
-                formattedQuestion['choice' + (index + 1)] = choice;
-            });
-
-            return formattedQuestion;
-        });
-
-        //Start The Game Method
+    fetch("questions.json").then(res=>  { 
+        // console.log(res);
+        return res.json(); 
+    }).then( loadedQuestions => {
+        console.log(loadedQuestions);
+        questions = loadedQuestions;
+        //Game Start
         startGame();
-
-        console.log(questions)
-    })
-    .catch((err) => {
+    }).catch( err=>{
         console.error(err);
     });
+
+}, 1000);
+  
 
 
 
@@ -165,3 +148,40 @@ incrementScore = num => {
 // }).catch( err=>{
 //     console.error(err);
 // });
+
+
+
+//RestFul Api Implementation
+// fetch('https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple')
+//     .then((res) => {
+//         return res.json();
+//     })
+//     .then((loadedQuestions) => {
+//         questions = loadedQuestions.results.map((loadedQuestion) => {
+//             const formattedQuestion = {
+//                 question: loadedQuestion.question,
+//             };
+
+//             const answerChoices = [...loadedQuestion.incorrect_answers];
+//             formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
+//             answerChoices.splice(
+//                 formattedQuestion.answer - 1,
+//                 0,
+//                 loadedQuestion.correct_answer
+//             );
+
+//             answerChoices.forEach((choice, index) => {
+//                 formattedQuestion['choice' + (index + 1)] = choice;
+//             });
+
+//             return formattedQuestion;
+//         });
+
+//         //Start The Game Method
+//         startGame();
+
+//         console.log(questions)
+//     })
+//     .catch((err) => {
+//         console.error(err);
+//     });

@@ -1,27 +1,51 @@
 [
     {
       "question": "Which of these has no legs?",
-      "choice1": "<script>",
-      "choice2": "<javascript>",
-      "choice3": "<js>",
-      "choice4": "<scripting>",
-      "answer": 1
-    },
-    {
-      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-      "choice1": "<script href='xxx.js'>",
-      "choice2": "<script name='xxx.js'>",
-      "choice3": "<script src='xxx.js'>",
-      "choice4": "<script file='xxx.js'>",
+      "choice1": "Cock",
+      "choice2": "Crab",
+      "choice3": "Worm",
+      "choice4": "Rat",
       "answer": 3
     },
     {
-      "question": " How do you write 'Hello World' in an alert box?",
-      "choice1": "msgBox('Hello World');",
-      "choice2": "alertBox('Hello World');",
-      "choice3": "msg('Hello World');",
-      "choice4": "alert('Hello World');",
+      "question": "What is the capital of Nigeria'?",
+      "choice1": "Ekiti",
+      "choice2": "Niger",
+      "choice3": "Abuja",
+      "choice4": "Abbuja",
+      "answer": 3
+    },
+    {
+      "question": "7 X 12",
+      "choice1": "67",
+      "choice2": "81",
+      "choice3": "82",
+      "choice4": "84",
       "answer": 4
+    },
+    {
+      "question": "Which of the following has feathers on its body'?",
+      "choice1": "Goat",
+      "choice2": "Hen",
+      "choice3": "Rat",
+      "choice4": "Dog",
+      "answer": 2
+    },
+    {
+      "question": "Which of this is not a Color'?",
+      "choice1": "White'>",
+      "choice2": "Dark'>",
+      "choice3": "Black'>",
+      "choice4": "Blue'>",
+      "answer": 2
+    },
+    {
+      "question": "15 X 12'?",
+      "choice1": "Ekiti'>",
+      "choice2": "Niger'>",
+      "choice3": "Abuja'>",
+      "choice4": "Abbuja'>",
+      "answer": 3
     }
   ]
   
