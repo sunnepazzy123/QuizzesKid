@@ -97,9 +97,9 @@
     var alanBtnInstance = alanBtn({
       key: alanKey,
       onCommand: ({command}) =>{
-        if (command === "testCommand") {
+        if (command === "quitCommand") {
           //call client code that will react on the received command
-          alert("The code was executed")
+          window.location.assign("/");
         }
       },
       rootEl: document.getElementById("alan-btn"),
