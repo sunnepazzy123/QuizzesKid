@@ -33,10 +33,10 @@
     },
     {
       "question": "Which of this is not a Color ?",
-      "choice1": "White'>",
-      "choice2": "Dark'>",
-      "choice3": "Black'>",
-      "choice4": "Blue'>",
+      "choice1": "White",
+      "choice2": "Dark",
+      "choice3": "Black",
+      "choice4": "Blue",
       "answer": 2
     },
     {
@@ -50,41 +50,41 @@
     {
       "question": "12 / 3 ?",
       "choice1": "6",
-      "choice2": "8'>",
-      "choice3": "2'>",
-      "choice4": "4'>",
+      "choice2": "8",
+      "choice3": "2",
+      "choice4": "4",
       "answer": 4
     },
     {
       "question": "12 / 3 ?",
       "choice1": "6",
-      "choice2": "8'>",
-      "choice3": "2'>",
-      "choice4": "4'>",
+      "choice2": "8",
+      "choice3": "2",
+      "choice4": "4",
       "answer": 4
     },
     {
       "question": "What is the capital of Oyo state ?",
       "choice1": "Osogbo",
-      "choice2": "Ilorin'>",
-      "choice3": "Ibadan'>",
-      "choice4": "Gombe'>",
+      "choice2": "Ilorin",
+      "choice3": "Ibadan",
+      "choice4": "Gombe",
       "answer": 3
     },
     {
       "question": "What is the capital of Delta state ?",
       "choice1": "Asaba",
-      "choice2": "Ilorin'>",
-      "choice3": "Bayelsa'>",
-      "choice4": "Gombe'>",
+      "choice2": "Ilorin",
+      "choice3": "Bayelsa",
+      "choice4": "Gombe",
       "answer": 1
     },
     {
       "question": "Which of these is not a Color ?",
       "choice1": "Yellow",
-      "choice2": "Pink'>",
-      "choice3": "Light'>",
-      "choice4": "White'>",
+      "choice2": "Pink",
+      "choice3": "Light",
+      "choice4": "White",
       "answer": 3
     },
     {
