@@ -125,3 +125,28 @@ input {
 input::placeholder {
   color: #aaa;
 }
+
+#home{
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+.home-h1{
+  font-size: 50px !important;
+}
+
+.home-link{
+  border-radius: 20px;
+}
+
+#totalScore{
+  font-size: 20px;
+}
+
+.totalScoreBox{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}

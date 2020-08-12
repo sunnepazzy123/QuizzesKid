@@ -54,9 +54,11 @@
   height: 4rem;
   border: 0.3rem solid #56a5eb;
   margin-top: 1.5rem;
+  border-radius: 20px;
 }
 
 #progressBarFull {
+  border-radius: 20px;
   height: 3.4rem;
   background-color: #56a5eb;
   width: 0%;
@@ -79,4 +81,20 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+
+
+.GameQuestion{
+  border: 5px solid;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.question{
+  font-size: 25px;
+  margin-bottom: 0px;
 }
