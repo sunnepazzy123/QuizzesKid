@@ -1,6 +1,6 @@
 [
     {
-      "question": "Which of these has no legs?",
+      "question": "Which of these animal has no legs ?",
       "choice1": "Cock",
       "choice2": "Crab",
       "choice3": "Worm",
@@ -8,7 +8,7 @@
       "answer": 3
     },
     {
-      "question": "What is the capital of Nigeria'?",
+      "question": "What is the capital of Nigeria ?",
       "choice1": "Ekiti",
       "choice2": "Niger",
       "choice3": "Abuja",
@@ -24,7 +24,7 @@
       "answer": 4
     },
     {
-      "question": "Which of the following has feathers on its body'?",
+      "question": "Which of the following animals has feathers on its body ?",
       "choice1": "Goat",
       "choice2": "Hen",
       "choice3": "Rat",
@@ -32,7 +32,7 @@
       "answer": 2
     },
     {
-      "question": "Which of this is not a Color'?",
+      "question": "Which of this is not a Color ?",
       "choice1": "White'>",
       "choice2": "Dark'>",
       "choice3": "Black'>",
@@ -40,12 +40,69 @@
       "answer": 2
     },
     {
-      "question": "15 X 12'?",
-      "choice1": "Ekiti'>",
-      "choice2": "Niger'>",
-      "choice3": "Abuja'>",
-      "choice4": "Abbuja'>",
+      "question": "15 X 12 ?",
+      "choice1": "180",
+      "choice2": "140'>",
+      "choice3": "120'>",
+      "choice4": "190'>",
+      "answer": 1
+    },
+    {
+      "question": "12 / 3 ?",
+      "choice1": "6",
+      "choice2": "8'>",
+      "choice3": "2'>",
+      "choice4": "4'>",
+      "answer": 4
+    },
+    {
+      "question": "12 / 3 ?",
+      "choice1": "6",
+      "choice2": "8'>",
+      "choice3": "2'>",
+      "choice4": "4'>",
+      "answer": 4
+    },
+    {
+      "question": "What is the capital of Oyo state ?",
+      "choice1": "Osogbo",
+      "choice2": "Ilorin'>",
+      "choice3": "Ibadan'>",
+      "choice4": "Gombe'>",
       "answer": 3
+    },
+    {
+      "question": "What is the capital of Delta state ?",
+      "choice1": "Asaba",
+      "choice2": "Ilorin'>",
+      "choice3": "Bayelsa'>",
+      "choice4": "Gombe'>",
+      "answer": 1
+    },
+    {
+      "question": "Which of these is not a Color ?",
+      "choice1": "Yellow",
+      "choice2": "Pink'>",
+      "choice3": "Light'>",
+      "choice4": "White'>",
+      "answer": 3
+    },
+    {
+      "question": " What's year was Nigeria gain Independence ?",
+      "choice1": "1956",
+      "choice2": "1989",
+      "choice3": "1962",
+      "choice4": "1960",
+      "answer": 4
+    },
+    {
+      "question": " What color is Nigeria flag ?",
+      "choice1": "Green, White, Green",
+      "choice2": "Green and White",
+      "choice3": "Green and Pink",
+      "choice4": "Yellow and Green",
+      "answer": 2
     }
+    
   ]
   
